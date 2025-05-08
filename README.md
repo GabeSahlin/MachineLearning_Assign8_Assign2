@@ -6,11 +6,17 @@ ReLU activation, and finally down from 32 to 1 value, or the predicted car price
 MSE became quite inaccurate by tens of thousands of dollars.
 
 An example output of the ANN is :
+
 Epoch 25 / 100 Average loss: 0.007929
+
 Epoch 50 / 100 Average loss: 0.000771
+
 Epoch 75 / 100 Average loss: 0.000397
+
 Epoch 100 / 100 Average loss: 0.000265
+
 MSE (fully trained): 5.098549081594683e-05
+
 Unnormalized MSE: 493.96
 
 In which case as the prices of cars in the dataset range roughly from 2000 to 18301, this is a fairly accurate model.
@@ -23,13 +29,19 @@ owners seemed to have little to no impact on the predicted pricing of the model.
 Example output :
 
 Feature correlation:
+
 Year           0.646377
+
 Mileage       -0.308777
+
 Owner_Count    0.017468
+
 Engine_Size    0.301200
-dtype: float64
+
 Scoring:
+
 R^2 score : 0.7763212713512162
+
 MSE score : 1095.8211960353788
 
 
