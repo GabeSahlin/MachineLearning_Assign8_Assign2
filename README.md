@@ -3,7 +3,7 @@
 CarPricesANN is an ANN created to predit the prices of cars given a dataset of features such as the car brand, model, year, engine size, etc.
 It utilizes two hidden layers going from 48 (features) to 64 weights, through a ReLU activation, then down from 64 to 32 values, through another 
 ReLU activation, and finally down from 32 to 1 value, or the predicted car price. I also normalized the data when I prepped it, as without it the 
-MSE became quite inaccurate by tens of thousands of dollars.
+MSE became quite inaccurate by tens of thousands of dollars. I thought this would be an interesting idea to attempt and compare the effeciency to the previous assignment 2, which uses simple linear regression and also does a fair job.
 
 An example output of the ANN is :
 
